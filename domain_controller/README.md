@@ -1,4 +1,4 @@
-## Creating a Domain Controller in VMware Workstation
+## Creating a Server Template in VMware Workstation
 
 00. Have VMware Workstation installed and enough hard drive space to create several virtual machines
 
@@ -11,7 +11,7 @@
 		- Microsoft Windows
 		- Windows Server 2019
 	- Name your virtual machine whatever you'd like, I chose _Base Server (Windows Server 2022)_ as I plan to use the initial install as a template to clone from
-	- I left the maximum disk size as the defualt, it's only a lab and I don't need to create a huge file
+	- I left the maximum disk size as the default, it's only a lab and I don't need to create a huge file
 	- **Before you click finish**
 		- Customize the Hardware
 			- _New CD/DVD (SATA)_ select the ISO for the evaluation under _Use ISO image file:_
@@ -32,4 +32,4 @@ D:\setup64.exe /S /v "/qn REBOOT=R ADDLOCAL=ALL"
 
 08. Power off the virtual machine, edit its settings and go to _Options_ > _Advanced_ to select **Enable Template Mode (to be used for cloning)**
 
-09. Right click on the machine in the library, and creat a snapshot
+09. Right click on the machine in the library, and create a snapshot
